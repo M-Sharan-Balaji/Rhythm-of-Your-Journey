@@ -44,7 +44,7 @@ const UI_YELLOW = "#ffd54a";
 const NH_ORANGE = "#e56f00"; // darker than #ff8c1a
 const NH_BLACK = "#000000";
 
-const PLAYER_SPEED = 220;
+const PLAYER_SPEED = 180;
 const GRAVITY = 1400;
 const JUMP_VY = -520;
 const TIME_LIMIT = 60;
