@@ -44,7 +44,7 @@ const UI_YELLOW = "#ffd54a";
 const NH_ORANGE = "#e56f00"; // darker than #ff8c1a
 const NH_BLACK = "#000000";
 
-const PLAYER_SPEED = 180;
+const PLAYER_SPEED = 220;
 const GRAVITY = 1400;
 const JUMP_VY = -520;
 const TIME_LIMIT = 60;
@@ -177,7 +177,7 @@ scrollImg.onload = () => console.log("SCROLL UI LOADED", scrollImg.naturalWidth,
 scrollImg.onerror = (e) => console.error("SCROLL UI FAILED TO LOAD", e);
 
 const logoPack = loadFirstExistingImage(
-  ["Logo.png", "LOGO.png", "logo.PNG", "Logo.PNG"],
+  ["logo.png", "Logo.png", "LOGO.png", "logo.PNG", "Logo.PNG"],
   "LOGO"
 );
 const logoImg = logoPack.img;
@@ -187,6 +187,13 @@ const mountainsImg = new Image();
 mountainsImg.src = "layer4.png";
 mountainsImg.onload = () => console.log("MOUNTAINS (layer4) LOADED", mountainsImg.naturalWidth, mountainsImg.naturalHeight);
 mountainsImg.onerror = (e) => console.error("MOUNTAINS (layer4) FAILED TO LOAD", e);
+
+// layer5 (fallback casings)
+const layer5Pack = loadFirstExistingImage(
+  ["Layer5.png", "layer5.png", "LAYER5.png", "Layer5.PNG", "layer5.PNG"],
+  "LAYER5"
+);
+const layer5Img = layer5Pack.img;
 
 // layer23
 const layer23Img = new Image();
