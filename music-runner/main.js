@@ -1,19 +1,3 @@
-/* main.js — patched regen (applies your latest requests)
-
-   ✅ Start screen:
-   - Removed BIG parchment behind logo
-   - Kept ONLY the scroll-style START button
-   - Darkened the background overlay more
-
-   ✅ End of game:
-   - Added fade-away (fade to black) after gameOver triggers
-   - End title orange made slightly darker
-
-   Notes:
-   - This is a full-file dump based on the last regenerated version I gave you.
-   - Keeps the filename fallback loader for logo + Layer5.
-*/
-
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 
