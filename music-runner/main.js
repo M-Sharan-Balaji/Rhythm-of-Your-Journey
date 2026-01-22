@@ -267,7 +267,7 @@ const MAPS = Array.from({ length: TOTAL_INSTRUMENTS }, (_, i) => BASE_MAPS[i % B
 /*************************
  * ENEMIES (random sprite)
  *************************/
-const enemySrcs = ["Assignments.png", "Linkedin.png", "Canvas.png"];
+const enemySrcs = ["Assignments.png", "JobPortal.png", "Assignment Portal.png"];
 const enemyImgs = enemySrcs.map((src) => {
   const img = new Image();
   img.src = src;
