@@ -53,12 +53,12 @@ Movement and timing are automatic.
 ## Project Structure
 
 /
-├── index.html
-├── main.js
-├── assets/
+├── music-runner/
 │   ├── sprites/
 │   ├── backgrounds/
-│   └── audio/
+│   └── index.html/
+│   └── main.js/
+│   └── style.css/
 └── README.md
 
 ## Motivation
